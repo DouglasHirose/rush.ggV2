@@ -1,0 +1,35 @@
+{
+  "name": "rush.gg",
+  "version": "1.0.0",
+  "description": "API para site de noticias sobre Esports",
+  "main": "start.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jp1 -test",
+    "dev": "node --watch src/server.js"
+    },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "express": "^4.21.2",
+    "next": "^15.1.7"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasHirose/rush.gg"
+  },
+  "keywords": [
+    "Esport",
+    "project",
+    "games",
+    "competitivo"
+  ],
+  "author": "Douglas Kaoru Hirose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DouglasHirose/rush.gg/issues"
+  },
+  "homepage": "https://github.com/DouglasHirose/rush.gg#readme"
+}
