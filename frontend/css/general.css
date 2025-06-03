@@ -21,6 +21,11 @@
     color: #3d2e2e;
 }
 
+#menu a{
+    text-decoration: none;
+    text-decoration-color: #ffffff;
+}
+
 #menu{
     float: right;
     display: flex;
